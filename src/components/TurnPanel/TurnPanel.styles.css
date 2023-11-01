@@ -1,0 +1,9 @@
+.turn-container {
+  margin: 40px 0 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-turn {
+  justify-content: end;
+}
