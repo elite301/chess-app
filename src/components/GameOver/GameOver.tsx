@@ -16,7 +16,9 @@ const GameOver = () => {
       <Modal show={isOver} backdrop='static' centered>
         <Modal.Body>
           <div className='d-flex flex-column align-items-center p-2 gap-2'>
-            <p className='fs-1 fw-bold'>Game finished</p>
+            <p className='fs-1 fw-bold' data-testid='game-finished'>
+              Game finished.
+            </p>
             <Button variant='primary' className='w-100 fs-4' onClick={onRestart}>
               Restart
             </Button>

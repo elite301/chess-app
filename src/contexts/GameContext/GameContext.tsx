@@ -1,7 +1,7 @@
 import { Chess, Color } from 'chess.js';
 import React, { createContext, useState } from 'react';
 
-type GameContextType = {
+export type GameContextType = {
   chess: Chess;
   setChess: (chess: Chess) => void;
   turn: Color;
